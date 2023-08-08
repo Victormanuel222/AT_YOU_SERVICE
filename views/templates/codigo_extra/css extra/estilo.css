@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+}
+
+body{
+    color: rgb(221, 255, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.P2{
+    border-radius: 3%;
+    background-color: #363636;
+    height: 520px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.box1{
+    height: 30px;
+    width: 180px;
+    background-color: white;
+}
+
+.R1{
+    border-radius: 2%;
+    background-color: #363636;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.B1{
+    background-color: #000000;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    font-size: 16px;
+}
+
+/*----------footer--------------*/
+
+.T{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #363636;
+    color: white;
+    height: 170px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.T .T1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.T .T2{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.T .T2 .TS{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 25%;
+}
+
+.T .T3{
+    font-size: 12px;
+}
+
+/*----------Registro--------------*/
+
+.Reg{
+    color: #000000;
+}
+
+.Reg form{
+    border-radius: 3%;
+    color: white;
+    background-color: #363636;
+    height: 420px;
+    width: 40%;
+}
